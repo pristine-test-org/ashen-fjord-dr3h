@@ -1,21 +1,18 @@
 # Ashen Fjord: Monorepo · Netlify (protected)
 
-> **This is a template, not a repository.** Copy it out and prepare it before an eval (steps below).
-> Nothing here is deployed.
-
 A monorepo with three apps on **Netlify**, with preview links **behind a Netlify password** (non-production deploys only; production stays public). Static Vite +
 TypeScript, no framework. The page reads a live list from the shared Supabase test project.
 Row in the support matrix: impeccable-reviews#302.
 
 ## Deployment links
 
-Filled in at prep time.
+Netlify sites in the team Abdul Wahab Siz, one per app, each with base `apps/<app>`. Deploy previews for pull requests are on, the team login is off, and non-production deploys ask for a password (production stays public).
 
 | App | Folder | Production | Preview gate |
 |---|---|---|---|
-| _app one_ | `apps/<app>` | _not deployed_ | yes |
-| _app two_ | `apps/<app>` | _not deployed_ | yes |
-| _app three_ | `apps/<app>` | _not deployed_ | yes |
+| Thistle | `apps/thistle-0z1` | https://ashen-fjord-dr3h-thistle-0z1.netlify.app | yes |
+| Saffron | `apps/saffron-mi4` | https://ashen-fjord-dr3h-saffron-mi4.netlify.app | yes |
+| Peony | `apps/peony-dt2` | https://ashen-fjord-dr3h-peony-dt2.netlify.app | yes |
 
 ## Names
 
